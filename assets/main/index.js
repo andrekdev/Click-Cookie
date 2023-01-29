@@ -16,7 +16,6 @@ function increment() {
   count++;
   document.querySelector('.contador-cookie').innerHTML = count
 
-  if(count > 10) location.href = "https://github.com/andrekdev";
   if(count > 50 ){
     pontoClique.play();
     document.body.style.backgroundColor = 'lime';
