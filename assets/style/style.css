@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+:root{
+    --bg-background: #6495ED
+}
+
+body{
+ background: var(--bg-background);
+ font-family: 'Montserrat', sans-serif;
+}
+
+.count-cookie{
+text-align: center;
+color: #fff;  
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sobre{
+text-align: center;
+
+}
+
+.cookie-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.maisumoff{
+    visibility: hidden;
+    margin: 0;
+}
+
+.maisum {
+    visibility: visible;
+   text-align: center;
+   color:#FFD700 ;
+  }
